@@ -1,5 +1,4 @@
 # FIFO_LRU
-Corso di Laurea Triennale in Informatica Sistemi Operativi a.a.2013/2014
 Progetto Politiche di sostituzione delle pagine (FIFO e LRU)
 1 Introduzione
 La memoria virtuale `e una parte della gerarchia di memoria composta dalla memoria e da un disco rigido. Il kernel utilizza la memoria virtuale per ridurre la richiesta di memoria da mettere a disposizione di un processo al fine di poter gestire un maggior numero di processi concorrentemente e poter gestire processi il cui spazio di indirizzamento `e maggiore delle dimensioni della memoria a disposizione. La memoria virtuale `e implementata attraverso il modello di allocazione non contigua e comprende sia componenti hardware che una componente software (gestore della memoria virtuale). Il gestore della memoria virtuale assicura buone prestazioni della memoria virtuale allocando un’adeguata quantit`a di memoria a un processo utilizzando un algoritmo di sostituzione per rimuovere una porzione che non `e stata referenziata di recente.
